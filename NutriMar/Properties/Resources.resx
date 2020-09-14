@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlimentoGrupo" xml:space="preserve">
+    <value>Grupo do alimento (1 - 2 - 3):</value>
+  </data>
+  <data name="AlimentoNome" xml:space="preserve">
+    <value>Alimento: </value>
+  </data>
+  <data name="AlimentoValorCalorico" xml:space="preserve">
+    <value>Valor calórico: </value>
+  </data>
+  <data name="BarraDietaExibirCombinacoes" xml:space="preserve">
+    <value>===============================================================================</value>
+  </data>
+  <data name="BarraDivisaoEntreObjetos" xml:space="preserve">
+    <value>-------------------------------------------------</value>
+  </data>
+  <data name="BarraMenus" xml:space="preserve">
+    <value>===============================================</value>
+  </data>
+  <data name="ClienteDataNascimento" xml:space="preserve">
+    <value>Data de nascimento:</value>
+  </data>
+  <data name="ClienteEmail" xml:space="preserve">
+    <value>E-mail:</value>
+  </data>
+  <data name="ClienteEndereco" xml:space="preserve">
+    <value>Endereço:</value>
+  </data>
+  <data name="ClienteNome" xml:space="preserve">
+    <value>Nome do cliente:</value>
+  </data>
+  <data name="ClienteTelefone" xml:space="preserve">
+    <value>Telefone:</value>
+  </data>
+  <data name="ClienteTelefones" xml:space="preserve">
+    <value>Telefones</value>
+  </data>
+  <data name="ConsultaData" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="ConsultaHorario" xml:space="preserve">
+    <value>Horário:</value>
+  </data>
+  <data name="ConsultaNomeCliente" xml:space="preserve">
+    <value>Código do Cliente:</value>
+  </data>
+  <data name="ConsultaPacienteNEncontrado" xml:space="preserve">
+    <value>Não existe cliente com o código informado</value>
+  </data>
+  <data name="ConsultaPercentGordura" xml:space="preserve">
+    <value>% de gordura corporal:</value>
+  </data>
+  <data name="ConsultaPeso" xml:space="preserve">
+    <value>Peso:</value>
+  </data>
+  <data name="ConsultaRestricoes" xml:space="preserve">
+    <value>Restrições alimentares:</value>
+  </data>
+  <data name="ConsultaSensacaoFisica" xml:space="preserve">
+    <value>Sensação Física:</value>
+  </data>
+  <data name="MenuAdicionar" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="MenuClientesListar" xml:space="preserve">
+    <value>Listar</value>
+  </data>
+  <data name="MenuConsultasLista" xml:space="preserve">
+    <value>Lista de consultas:</value>
+  </data>
+  <data name="MenuConsultasListarPorPaciente" xml:space="preserve">
+    <value>Listar por paciente</value>
+  </data>
+  <data name="MenuConsultasListarTodas" xml:space="preserve">
+    <value>Listar todas</value>
+  </data>
+  <data name="MenuPrincipalOpcaoClientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="MenuPrincipalOpcaoConsultas" xml:space="preserve">
+    <value>Consultas</value>
+  </data>
+  <data name="MenuPrincipalOpcaoDieta" xml:space="preserve">
+    <value>Criar dieta</value>
+  </data>
+  <data name="MenuPrincipalOpcaoSair" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="MenuVoltar" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="MsgClientesAdicionarNovoTel" xml:space="preserve">
+    <value>Deseja adicionar outro telefone ([s] - sim / [qualquer tecla] - não)?</value>
+  </data>
+  <data name="MsgClientesNenhumCliente" xml:space="preserve">
+    <value>Você ainda não possui nenhum cliente cadastrado.</value>
+  </data>
+  <data name="MsgClientesPreencherInform" xml:space="preserve">
+    <value>Preencha as informações do cliente:</value>
+  </data>
+  <data name="MsgConsultasCadastroPaciente" xml:space="preserve">
+    <value>Para adicionar uma consulta é necessário que exista ao menos um cliente cadastrado.</value>
+  </data>
+  <data name="MsgConsultasInformPaciente" xml:space="preserve">
+    <value>Informe o código do paciente:</value>
+  </data>
+  <data name="MsgConsultasNExiste" xml:space="preserve">
+    <value>Você ainda não possui nenhuma consulta cadastrada.</value>
+  </data>
+  <data name="MsgConsultasPacienteNExisteConsulta" xml:space="preserve">
+    <value>Paciente não existe ou não existem consultas cadastradas para ele.</value>
+  </data>
+  <data name="MsgConsultasPreenchaInform" xml:space="preserve">
+    <value>"Preencha as informações da consulta: "</value>
+  </data>
+  <data name="MsgDietaCombinacoesPossiveis" xml:space="preserve">
+    <value>Combinações possíveis para um consumo calórico de ["  {0}  "]:</value>
+  </data>
+  <data name="MsgDietaInformeMeta" xml:space="preserve">
+    <value>Informe a meta de consumo calórico para o cliente:</value>
+  </data>
+  <data name="MsgDietaInformeNovaMeta" xml:space="preserve">
+    <value>Informe uma nova meta de consumo calórico para o cliente:</value>
+  </data>
+  <data name="MsgDietaNaoContemTodosGrupos" xml:space="preserve">
+    <value>É necessário informar pelo menos um alimento de cada grupo. Continuar? ([s] - sim / [qualquer tecla] - não)?</value>
+  </data>
+  <data name="MsgDietaNovoAlimento" xml:space="preserve">
+    <value>Deseja adicionar outro alimento ([s] - sim / [qualquer tecla] - não)?</value>
+  </data>
+  <data name="MsgDietaPerguntaNovaMeta" xml:space="preserve">
+    <value>Deseja informar uma nova meta de calorias para os mesmos alimentos ([s] - sim / [qualquer tecla] - não)?</value>
+  </data>
+  <data name="MsgDietaPreencherInfo" xml:space="preserve">
+    <value>Preencha as informações necessárias: </value>
+  </data>
+  <data name="MsgDietaSemCombinacoes" xml:space="preserve">
+    <value>Nenhuma combinação encontrada.</value>
+  </data>
+  <data name="MsgMenuSelecionarOpcao" xml:space="preserve">
+    <value>Selecione uma opção: </value>
+  </data>
+  <data name="MsgPressioneTeclaPVoltar" xml:space="preserve">
+    <value>Pressione qualquer tecla para retornar a lista de opções.</value>
+  </data>
+  <data name="MsgPressioneTelcaParaSair" xml:space="preserve">
+    <value>Pressione qualquer tecla para sair.</value>
+  </data>
+  <data name="TituloClientesListagem" xml:space="preserve">
+    <value>Lista de clientes:</value>
+  </data>
+  <data name="TituloMenuDieta" xml:space="preserve">
+    <value>Criar Dieta</value>
+  </data>
+  <data name="TituloMenuPrincipal" xml:space="preserve">
+    <value>Menu NutriMar</value>
+  </data>
+</root>
